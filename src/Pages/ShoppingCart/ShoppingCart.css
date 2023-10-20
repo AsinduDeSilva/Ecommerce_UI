@@ -11,7 +11,8 @@
 
 .cart-outer{
     background-color: #E4AF23;
-    height: 180px;
+    min-height: 180px;
+    padding-bottom: 20px;
 }
 
 .cart-title{

@@ -1,10 +1,11 @@
 import { ShoppingCart } from './Pages/ShoppingCart/ShoppingCart';
+import { CartContextProvider } from './hooks/CartContext';
 
 function App() {
   return (
-    <div>
+    <CartContextProvider>
       <ShoppingCart/>
-    </div>
+    </CartContextProvider>
   );
 }
 
